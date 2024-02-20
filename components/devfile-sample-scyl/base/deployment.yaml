@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-scyl
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0044-tenant/tkrw-pr712-0075-0044-app/devfile-sample-scyl@sha256:083f768cbdbca66bfe9d2ae7258846d2985850453fd2bdc40c954153e5f12236
         name: my-nodejs
         ports:
         - containerPort: 3001
